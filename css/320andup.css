@@ -809,19 +809,26 @@ blockquote {
     .pattern__item {
       border-width: .5px; } }
 
+.pattern__item:last-child {
+  border-bottom-width: 10px; }
+
 .pattern__item--small {
   display: inline-flex;
   flex-grow: 1;
   margin-bottom: 3rem;
   padding-bottom: 1.5rem;
-  width: 180px;
+  width: 175px;
   border: 1px solid #d8d8d8; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .pattern__item--small {
       border-width: .5px; } }
 
-.pattern__item:last-child {
-  border-bottom-width: 10px; }
+.pattern__item--small img {
+  border-radius: 0.5em;
+  margin: 0.7em; }
+
+.pattern__item--small:last-child {
+  border-bottom-width: 1px; }
 
 .pattern__item h1,
 .pattern__item h2,

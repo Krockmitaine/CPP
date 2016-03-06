@@ -97,12 +97,16 @@
   }
 }
 
+.pattern__item:last-child {
+  border-bottom-width : 10px;
+}
+
 .pattern__item--small {
   display         : inline-flex;
   flex-grow       : 1;
   margin-bottom   : 3rem;
   padding-bottom  : 1.5rem;
-  width           : 180px;
+  width           : 175px;
   border          : $border;
   @media
   (-webkit-min-device-pixel-ratio: 2),
@@ -111,8 +115,13 @@
   }
 }
 
-.pattern__item:last-child {
-  border-bottom-width : 10px;
+.pattern__item--small img {
+  border-radius   : $border-radius;
+  margin:  0.7em;
+}
+
+.pattern__item--small:last-child {
+  border-bottom-width : 1px;
 }
 
 .pattern__item h1,
@@ -165,9 +174,6 @@
   min-height : 100vh;
   background-color : #fff;
 }
-
-
-
 
 
 /* COVER PAGE */
