@@ -811,24 +811,14 @@ blockquote {
 
 .pattern__item--small {
   display: inline-flex;
+  flex-grow: 1;
   margin-bottom: 3rem;
   padding-bottom: 1.5rem;
-  width: 280px; }
+  width: 180px;
+  border: 1px solid #d8d8d8; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .pattern__item--small {
       border-width: .5px; } }
-
-.item {
-  display: inline-flex;
-  flex-grow: 1;
-  width: 480px;
-  border: 1px solid #d8d8d8; }
-
-.finis {
-  display: inline-flex;
-  flex-grow: 1;
-  width: 300px;
-  border: 1px solid #d8d8d8; }
 
 .pattern__item:last-child {
   border-bottom-width: 10px; }

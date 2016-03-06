@@ -98,28 +98,17 @@
 }
 
 .pattern__item--small {
-  display: inline-flex;
+  display         : inline-flex;
+  flex-grow       : 1;
   margin-bottom   : 3rem;
   padding-bottom  : 1.5rem;
-  width           : 280px;
+  width           : 180px;
+  border          : $border;
   @media
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
     border-width : .5px;
   }
-}
-.item {
-  display: inline-flex;
-  flex-grow: 1;
-  width: 480px;
-  border: $border;
-}
-
-.finis {
-  display   : inline-flex;
-  flex-grow : 1;
-  width     : 300px;
-  border: $border;
 }
 
 .pattern__item:last-child {
