@@ -104,20 +104,18 @@
 .pattern__item--small {
   display         : inline-flex;
   flex-grow       : 1;
-  margin-bottom   : 3rem;
-  padding-bottom  : 1.5rem;
   width           : 175px;
   border          : $border;
   @media
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
-    border-width : .5px;
+    border-width  : .5px;
   }
 }
 
 .pattern__item--small img {
   border-radius   : $border-radius;
-  margin:  0.7em;
+  margin:  0.65em;
 }
 
 .pattern__item--small:last-child {

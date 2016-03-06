@@ -55,6 +55,7 @@ figcaption {
   font-size : $figcaption-font-size;
   font-style : $figcaption-font-style;
   font-weight : $figcaption-font-weight;
-  color: red;
+  margin-left: 1em;
+  color: $font-color;
   text-transform : $figcaption-text-transform;
 }

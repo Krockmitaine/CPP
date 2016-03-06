@@ -275,7 +275,8 @@ figcaption {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: normal;
-  color: red;
+  margin-left: 1em;
+  color: #142902;
   text-transform: none; }
 
 @-webkit-viewport {
@@ -815,8 +816,6 @@ blockquote {
 .pattern__item--small {
   display: inline-flex;
   flex-grow: 1;
-  margin-bottom: 3rem;
-  padding-bottom: 1.5rem;
   width: 175px;
   border: 1px solid #d8d8d8; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -825,7 +824,7 @@ blockquote {
 
 .pattern__item--small img {
   border-radius: 0.5em;
-  margin: 0.7em; }
+  margin: 0.65em; }
 
 .pattern__item--small:last-child {
   border-bottom-width: 1px; }
