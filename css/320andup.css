@@ -806,7 +806,7 @@ blockquote {
   border-top: 7px solid #e3e4e4;
   border-bottom: 1px solid #e3e4e4;
   width: 350px;
-  color: blue; }
+  color: pink; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .pattern__item {
       border-width: .5px; } }
