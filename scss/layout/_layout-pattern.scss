@@ -90,6 +90,10 @@
   border-top      : 7px solid #e3e4e4;
   border-bottom   : 1px solid #e3e4e4;
   width           : 350px;
+<<<<<<< HEAD
+  color           : pink;
+=======
+>>>>>>> master
   @media
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
@@ -101,6 +105,30 @@
   border-bottom-width : 10px;
 }
 
+<<<<<<< HEAD
+.pattern__item--small {
+  display         : inline-flex;
+  flex-grow       : 1;
+  width           : 175px;
+  border          : $border;
+  @media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+    border-width  : .5px;
+  }
+}
+
+.pattern__item--small img {
+  border-radius   : $border-radius;
+  margin:  0.65em;
+}
+
+.pattern__item--small:last-child {
+  border-bottom-width : 1px;
+}
+
+=======
+>>>>>>> master
 .pattern__item h1,
 .pattern__item h2,
 .pattern__item h3,
@@ -108,6 +136,8 @@
 .pattern__item h5 {
   text-align : center;
 }
+<<<<<<< HEAD
+=======
 .item {
   display: inline-flex;
   flex-grow: 1;
@@ -122,6 +152,7 @@
   border: $border;
 }
 
+>>>>>>> master
 
 .pattern__type {
   margin-bottom : .75rem;
@@ -167,9 +198,12 @@
 }
 
 
+<<<<<<< HEAD
+=======
 
 
 
+>>>>>>> master
 /* COVER PAGE */
 
 #pattern__cover {
