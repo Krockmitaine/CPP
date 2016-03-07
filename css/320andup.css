@@ -837,6 +837,18 @@ blockquote {
 .pattern__item h5 {
   text-align: center; }
 
+.item {
+  display: inline-flex;
+  flex-grow: 1;
+  width: 480px;
+  border: 1px solid #d8d8d8; }
+
+.finis {
+  display: inline-flex;
+  flex-grow: 1;
+  width: 300px;
+  border: 1px solid #d8d8d8; }
+
 .pattern__type {
   margin-bottom: .75rem;
   text-align: center;

@@ -6,10 +6,6 @@ $debug-color-warning			: yellow;
 $debug-outline-width			: 5px;
 $debug-outline-style			: solid;
 
-
-
-
-
 // BASICS  ================================================
 
 $body-background 				: #fff;
@@ -17,9 +13,6 @@ $vertical-spacing				: 1.35rem;
 $gutter		 				    	: 22px;
 $max-width					   	: 90.000rem;
 $MQs						      	: true;
-
-
-
 
 // TYPOGRAPHY  ================================================
 
@@ -65,10 +58,6 @@ $heading-font-weight 			: 700;
 $heading-font-color 			: inherit;
 $heading-lineheight				: $font-size * 1.15;
 
-
-
-
-
 // COLOUR  ================================================
 
 $black 							    : #000;
@@ -85,10 +74,6 @@ $link-color-focus 			: $color-secondary;
 
 $base-bg						    : #f4f4f4;
 
-
-
-
-
 // TEXTURE  ================================================
 
 $border-color    			  : #d8d8d8;
@@ -97,13 +82,7 @@ $border-width 					: 1px;
 $border-radius 					: .5em;
 $border							    : $border-width $border-style $border-color;
 
-
-
-
-
 // 320 AND UP  ================================================
-
-
 
 // Boxes
 
@@ -125,11 +104,7 @@ $box-large-border-radius 	: $border-radius * 2;
 $box-small-padding				: 2px 6px;
 $box-small-border-radius 		: $border-radius;
 
-
-
 // Buttons
-
-<<<<<<< HEAD
 $button-bg 							   : $base-bg;
 $button-border-color			 : darken($button-bg,10);
 $button-border-style 			 : $border-style;
@@ -150,7 +125,7 @@ $button-font-color-hover 	 : $button-font-color;
 $button-large-font-size		 : $font-size-plus-three;
 $button-small-font-size		 : $font-size;
 $button-mini-font-size		 : $font-size-minus-one;
-=======
+
 $button-bg 							    	: $base-bg;
 $button-border-color					: darken($button-bg,10);
 $button-border-style 					: $border-style;
@@ -171,52 +146,38 @@ $button-font-color-hover 				: $button-font-color;
 $button-large-font-size					: $font-size-plus-three;
 $button-small-font-size					: $font-size;
 $button-mini-font-size					: $font-size-minus-one;
->>>>>>> master
-
-
 
 // Primary buttons
 
-<<<<<<< HEAD
 $button-primary-bg						      : $color-primary;
 $button-primary-border-color			  : darken($button-primary-bg,10);
 $button-primary-font-color 				  : $white;
 
 $button-primary-bg-hover				    : darken($button-primary-bg,5);
 $button-primary-border-color-hover  : darken($button-primary-border-color,5);
-=======
+
 $button-primary-bg						: $color-primary;
 $button-primary-border-color			: darken($button-primary-bg,10);
 $button-primary-font-color 				: $white;
 
 $button-primary-bg-hover				: darken($button-primary-bg,5);
 $button-primary-border-color-hover		: darken($button-primary-border-color,5);
->>>>>>> master
+
 $button-primary-font-color-hover 		: $button-primary-font-color;
 
-
-
 // Forms
-
-<<<<<<< HEAD
 $form-font-family	: $font-family;
 $form-font-color 	: $font-color;
-=======
+
 $form-font-family				: $font-family;
 $form-font-color 				: $font-color;
->>>>>>> master
-
-
 
 // Form-inputs
-
-<<<<<<< HEAD
 $input-padding					   : 6px 11px;
 $input-bg 						     : $white;
-=======
+
 $input-padding					: 6px 11px;
 $input-bg 						: $white;
->>>>>>> master
 
 $input-border-color				: $border-color;
 $input-border-color-hover		: $border-color;
@@ -233,47 +194,35 @@ $input-placeholder-font-size 	: $font-size;
 
 $textarea-min-height			: 160px;
 
-
-
 // Form-labels
 
 $label-font-color 				: $font-color;
 $label-font-family				: $font-family;
 $label-font-size 				: $font-size;
 
-
-
 // Images
-
 $figcaption-font-family			: $alt-font-family;
-<<<<<<< HEAD
+
 $figcaption-font-size			  : 1.4rem;
 $figcaption-font-style			: normal;
 $figcaption-font-weight			: normal;
 $figcaption-text-transform	: none;
-=======
+
 $figcaption-font-size			: 1.4rem;
 $figcaption-font-style			: normal;
 $figcaption-font-weight			: normal;
 $figcaption-text-transform		: none;
->>>>>>> master
-
-
 
 // Misc.
 
-<<<<<<< HEAD
-$transition-duration		    	: .25s;
-=======
-$transition-duration			: .25s;
->>>>>>> master
-$transition-timing-function		: ease;
+$transition-duration		    : .25s;
 
+$transition-duration			  : .25s;
 
+$transition-timing-function	: ease;
 
 // Pagination
 
-<<<<<<< HEAD
 $pagination-background		  	: $base-bg;
 $pagination-background-hover	: $body-background;
 $pagination-background-active	: $body-background;
@@ -282,7 +231,7 @@ $pagination-color				      : $font-color;
 $pagination-link-color		  	: $pagination-color;
 $pagination-padding			    	: .6rem 1.2rem;
 $pagination-font-size		     	: 1.4rem;
-=======
+
 $pagination-background			: $base-bg;
 $pagination-background-hover	: $body-background;
 $pagination-background-active	: $body-background;
@@ -291,10 +240,9 @@ $pagination-color				: $font-color;
 $pagination-link-color			: $pagination-color;
 $pagination-padding				: .6rem 1.2rem;
 $pagination-font-size			: 1.4rem;
->>>>>>> master
+
 $pagination-letter-spacing		: 2px;
 $pagination-text-transform		: uppercase;
-
 
 // Tables
 
